@@ -76,47 +76,89 @@
                 </ul>
             </div>
             <div class="navbar-end gap-5">
-                <img src="Images/search.svg" alt="">
+                <img src="Images/search.svg" alt="" class="hidden lg:block">
                 <a class="btn btn-error text-white font-manrope lg:px-10">Get Ticket</a>
             </div>
         </div>
 
         <!-- banner section -->
 
-            <div class="carousel w-full mt-10">
+        <div class="carousel w-full mt-10">
 
-                <div id="slide1" class="carousel-item relative w-full">
-                    <img src="Images/1.png" class="w-full" />
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide3" class="btn btn-circle bg-black text-white">❮</a>
-                        <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
-                    </div>
+            <div id="slide1" class="carousel-item relative w-full">
+                <img src="Images/1.png" class="w-full h-[30vh] lg:h-[80vh]" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle bg-black text-white">❮</a>
+                    <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
                 </div>
-                <div id="slide2" class="carousel-item relative w-full">
-                    <img src="Images/1.png" class="w-full" />
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide1" class="btn btn-circle bg-black text-white">❮</a>
-                        <a href="#slide3" class="btn btn-circle bg-black text-white">❯</a>
-                    </div>
+            </div>
+            <div id="slide2" class="carousel-item relative w-full">
+                <img src="Images/1.png" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle bg-black text-white">❮</a>
+                    <a href="#slide3" class="btn btn-circle bg-black text-white">❯</a>
                 </div>
-
             </div>
 
-            <!-- badge -->
-            <div class="bg-black p-8 w-15 -mt-16 inline-flex rounded-xl">
-                <div>
-                    <h3 class="text-2xl text-white">Meet all the heroes from the field</h3>
-                    <p class="text-white">It's a place where you can discover and learn about <br>the people who are
-                        making a difference in the world of Hokey.</p>
-                </div>
+        </div>
 
+        <!-- badge -->
+
+        <div
+            class="bg-black rounded-xl p-8 h-[30vh] lg:h-[18vh] lg:w-2/6 lg:left-11 lg:-translate-y-64 lg:translate-x-[190%]">
+            <div>
+                <h3 class="text-2xl text-white -mt-5">Meet all the heroes from the field</h3>
+                <p class="text-white">It's a place where you can discover and learn about <br>the people who are
+                    making a difference in the world of Hokey.</p>
             </div>
-
-
+        </div>
 
     </header>
 
-    <main>
+    <main class="container mx-auto">
+
+        <!-- club section -->
+
+        <section class="text-center my-24">
+            <div>
+                <hr class="border-dotted border-2 -mt-16 lg:-mt-32">
+                <h2 class="text-2xl lg:text-4xl font-manrope font-extrabold mt-8 lg:mt-10">Professional Hockeys Club
+                </h2>
+                <p class="text-[#13131899] lg:mt-6">Welcome to our Professional Hockey Club, where passion meets
+                    precision on the ice. <br>Explore various facilities and exclusive behind-the-scenes content as we
+                    strive for victory together.</p>
+                <hr class="border-dotted border-2 mt-8 lg:mt-10">
+            </div>
+
+            <div class="mt-10 grid grid-cols-1 lg:grid-cols-4 lg:my-20">
+                <div>
+                    <div class="radial-progress text-red-500 mx-28" style="--value:87;" role="progressbar">87%</div>
+                    <h2 class="text-xl lg:text-xl font-manrope font-extrabold mt-3 lg:mt-5">Prayer Facility</h2>
+                    <p class="text-[#13131899] mt-4 lg:mt-6">To cater to the spiritual needs of our community, we are proud to offer a dedicated prayer
+                        facility within our club premises.</p>
+                </div>
+
+                <div>
+                    <div class="radial-progress text-green-500 mx-28 my-6 lg:my-0" style="--value:95;" role="progressbar">95%</div>
+                    <h2 class="text-xl lg:text-xl font-manrope font-extrabold lg:mt-5">Experienced Coach</h2>
+                    <p class="text-[#13131899] mt-4 lg:mt-6">With a proven track record of success, our coach leads the team with passion and instills a culture of discipline, teamwork, and continuous improvement. </p>
+                </div>
+
+                <div>
+                    <div class="radial-progress text-yellow-400 mx-28 my-6 lg:my-0" style="--value:90;" role="progressbar">90%</div>
+                    <h2 class="text-xl lg:text-xl font-manrope font-extrabold lg:mt-5">Senior Player</h2>
+                    <p class="text-[#13131899] mt-4 lg:mt-6">As a mentor to younger players, the Senior Player plays a pivotal role in fostering a cohesive team spirit and guiding the club toward success. </p>
+                </div>
+
+                <div>
+                    <div class="radial-progress text-blue-500 mx-28 my-6 lg:my-0" style="--value:80;" role="progressbar">80%</div>
+                    <h2 class="text-xl lg:text-xl font-manrope font-extrabold lg:mt-5">Training Ground</h2>
+                    <p class="text-[#13131899] mt-4 lg:mt-6">Serves as the epicenter of our team's preparation, fostering skill development, strategy refinement, and team cohesion.</p>
+                </div>
+
+            </div>
+
+        </section>
 
     </main>
 
